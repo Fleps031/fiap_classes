@@ -1,0 +1,35 @@
+p{
+    font-size: 35px;
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.azul{
+    border: solid 4px blue;
+    background-color: lightblue;
+}
+
+.amarelo{
+    border: solid 4px red;
+    background-color: peachpuff;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.caixa1{
+    background-color: thistle;
+    z-index: 1;
+    position: absolute;
+    left: 120px;
+}
+.caixa2{
+    background-color: crimson;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+}
